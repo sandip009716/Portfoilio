@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // above change combine use uesState and react
-import pic from "../../public/SandipKumar.jpg";
+ import pic from "../../public/SandipKumar.JPG"
 import { ReactTyped, Typed } from "react-typed";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
