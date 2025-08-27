@@ -98,7 +98,7 @@ function Home() {
                 </a>
               
               <div className="space-y-2">
-                <Certification />
+                {/* <Certification /> */}
               </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ function Home() {
         </div>
       </div>
 
-      <hr className="border-t-1 border-gray-200 mt-[-20px]" />
+      <hr className="border-t-1 border-gray-200 " />
     </>
   );
 }

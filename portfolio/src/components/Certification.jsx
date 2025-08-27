@@ -133,7 +133,7 @@ export default function Certification() {
             setShowUploader((prev) => !prev);
             setShowCertificates(false);
           }}
-          className="px-2 py-2 bg-slate-800 text-white rounded-md shadow"
+          className="px-2 py-2 bg-slate-800 text-white rounded-md shadow cursor-pointer "
         >
           {showUploader ? "Hide Uploader" : "Upload Certificate"}
         </button>
@@ -149,7 +149,7 @@ export default function Certification() {
               }, 100);
             }
           }}
-          className="px-2 py-3 bg-blue-600 text-white rounded-md shadow"
+          className="px-2 py-3 bg-blue-600 text-white rounded-md shadow cursor-pointer "
         >
           {showCertificates ? "Hide Certificates" : "My Certificates"}
         
@@ -185,7 +185,7 @@ export default function Certification() {
             <div className="md:col-span-3 flex items-center gap-3">
               <button
                 type="submit"
-                className="px-4 py-2 rounded shadow bg-slate-800 text-white mb-5"
+                className="px-4 py-2 rounded shadow bg-slate-800 text-white mb-5 cursor-pointer "
               >
                 Upload
               </button>

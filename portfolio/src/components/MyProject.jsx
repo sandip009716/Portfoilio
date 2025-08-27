@@ -1,6 +1,4 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
 import social from "../../public/SocialMedia.jpeg";
 import Ai from "../../public/AiImage.avif";
 import book from "../../public/12772.jpg";
@@ -59,7 +57,7 @@ function MyProject() {
       >
         <h1 className="text-3xl font-bold mb-5">My Projects</h1>
         <span className="underline font-semibold">Featured Projects</span>
-        <div className="grid grid-col-1 md:grid-cols-4 gap-3 my-5">
+        <div className="grid grid-col-1 md:grid-cols-4 gap-12 my-5">
           {/* {cardItem.map(({ id, logo, name }) => {
             return (
               <div
@@ -100,7 +98,7 @@ function MyProject() {
 
 
            <div
-                className="md:w-[250px] md:h-[250] border-[1px] rounded-lg shadow-lg p-2 cursor-pointer hover:scale-105 "
+                className="md:w-[250px] md:h-[250] border-[1px] rounded-lg shadow-lg p-2 cursor-pointer hover:scale-104 "
                 key={1}
               >
                 <img
@@ -109,13 +107,13 @@ function MyProject() {
                   alt=""
                 ></img>
                 <div>
-                  <div className="px-2 font-bold text-xl mb-2">{"Cognify"}</div>
+                  <div className="px-2 font-bold text-xl mb-2">{"Cognify.ai"}</div>
                   <p className="px-2 text-gray-700 text-sm">
                     Include ai feature like remove backgroud, Ai Articale, and image Gernator etc
                   </p>
                 </div>
                 <div className="px-3 py-5 mt-5 space-x-3 justify-between items-center flex">
-                  <button className="bg-blue-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-103 ">
+                  <button className="bg-blue-500 text-white text-sm rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-103 ">
                     View
                   </button>
                   <button
@@ -125,7 +123,7 @@ function MyProject() {
                         "_blank"
                       )
                     }
-                    className="bg-green-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103"
+                    className="bg-green-500 text-white text-sm rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103"
                   >
                     Source Code
                   </button>
@@ -152,7 +150,7 @@ function MyProject() {
                   </p>
                 </div>
                 <div className="px-3 py-5 mt-5 space-x-3 justify-between items-center flex">
-                  <button className="bg-blue-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-103 ">
+                  <button className="bg-blue-500 text-white text-sm rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-103 ">
                     View
                   </button>
                   <button
@@ -162,7 +160,7 @@ function MyProject() {
                         "_blank"
                       )
                     }
-                    className="bg-green-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103"
+                    className="bg-green-500 text-white text-sm rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103"
                   >
                     Source Code
                   </button>
@@ -188,7 +186,7 @@ function MyProject() {
                   </p>
                 </div>
                 <div className="px-3 py-5 mt-5 space-x-3 justify-between items-center flex">
-                  <button className="bg-blue-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-105 ">
+                  <button className="bg-blue-500 text-white text-sm rounded-md px-3 py-1 hover:bg-blue-600 hover:scale-105 ">
                     View
                   </button>
                   <button
@@ -198,7 +196,7 @@ function MyProject() {
                         "_blank"
                       )
                     }
-                    className="bg-green-500 text-white font-semibold rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103 "
+                    className="bg-green-500 text-white text-sm rounded-md px-3 py-1 hover:bg-green-600 hover:scale-103 "
                   >
                     Source Code
                   </button>
